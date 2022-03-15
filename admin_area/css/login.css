@@ -1,0 +1,48 @@
+body{
+    padding-top: 10%;
+    background-color: #ffffff;
+}
+.form-login{
+    max-width: 350px;
+    padding: 40px;
+    border: 3px solid #2b6777;
+    border-radius: 15px;
+    background: #2b6777;
+    margin: 0 auto;
+    box-shadow: rgba(82,171,152,1) 13px 13px 10px;
+}
+.form-login .form-login-heading{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-login .form-control{
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-login input[type="email"]{
+    color: #52ab98;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.form-login input[type="password"]{
+    color: #52ab98;
+    margin-bottom: 40px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+button{
+    color: #ffffff;
+    background: #52ab98;
+    font-weight: bold;
+}
+button:hover{
+    color: #52ab98;
+    background: #ffffff;
+    font-weight: bold;
+}
